@@ -1,6 +1,6 @@
 <?php
 //Step 1: Load KoolReport
-require_once "../../../common.php";
+require_once "../../../load.koolreport.php";
 use \koolreport\processes\Limit;
 use \koolreport\processes\Sort;
 use \koolreport\processes\Map;
@@ -16,7 +16,7 @@ class MyReport extends \koolreport\KoolReport
         return array(
             "dataSources" => array(
                 "dollarsales"=>array(
-                    'filePath' => '../../../data/customer_product_dollarsales2.csv',
+                    'filePath' => '../../../databases/customer_product_dollarsales2.csv',
                     'fieldSeparator' => ';',
                     'class' => "\koolreport\datasources\CSVDataSource"      
                 ), 

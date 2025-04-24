@@ -1,5 +1,5 @@
 <?php
-require_once "../../../common.php";
+require_once "../../../load.koolreport.php";
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\Limit;
 use \koolreport\processes\Sort;
@@ -17,7 +17,7 @@ class SalesQuarters extends koolreport\KoolReport
         return array(
             "dataSources" => array(
                 "dollarsales"=>array(
-                    'filePath' => '../../../data/customer_product_dollarsales2.csv',
+                    'filePath' => '../../../databases/customer_product_dollarsales2.csv',
                     'fieldSeparator' => ';',
                     'class' => "\koolreport\datasources\CSVDataSource"      
                 ), 
