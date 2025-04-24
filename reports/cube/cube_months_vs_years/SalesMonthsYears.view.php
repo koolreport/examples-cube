@@ -2,7 +2,7 @@
 use \koolreport\widgets\koolphp\Table;
 use \koolreport\widgets\google;
 ?>
-<div class="container report-content">
+<div class="report-content">
 
     <div class="text-center">
         <h1>Months vs Years Cube</h1>

@@ -1,7 +1,7 @@
 <?php
     use \koolreport\widgets\koolphp\Table;
 ?>
-<div class="container report-content">
+<div class="report-content">
     <div class="text-center">
         <h1>Cube Process</h1>
         <p class="lead">No Row or Column</p>

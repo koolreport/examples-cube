@@ -1,7 +1,7 @@
 <?php
     use \koolreport\widgets\koolphp\Table;
 ?>
-<div class="container container report-content">
+<div class="report-content">
     <div class="text-center">
         <h1>SuperCube Process</h1>
         <p class="lead">Multi fields rows</p>
