@@ -1,5 +1,5 @@
 <?php
-require_once "../../../load.koolreport.php";
+require_once "../../../common.php";
 use \koolreport\processes\ColumnMeta;
 use \koolreport\processes\Limit;
 use \koolreport\processes\RemoveColumn;
@@ -16,7 +16,7 @@ class SalesMonthsYears extends koolreport\KoolReport
         return array(
             "dataSources" => array(
                 "dollarsales"=>array(
-                    'filePath' => '../../../databases/customer_product_dollarsales2.csv',
+                    'filePath' => '../../../data/customer_product_dollarsales2.csv',
                     'fieldSeparator' => ';',
                     'class' => "\koolreport\datasources\CSVDataSource"      
                 ), 

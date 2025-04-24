@@ -2,7 +2,7 @@
 use \koolreport\widgets\koolphp\Table;
 use \koolreport\widgets\google;
 ?>
-<div class="report-content">
+<div class="container report-content">
 
     <div class="text-center">
         <h1>Customers vs Categories Cube</h1>

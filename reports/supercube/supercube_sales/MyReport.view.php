@@ -5,7 +5,7 @@
     use \koolreport\widgets\google;
     use \koolreport\widgets\koolphp\Table;
 ?>
-<div class="container report-content">
+<div class="container container report-content">
 
     <div class="text-center">
         <h1>Sales SuperCube</h1>

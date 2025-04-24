@@ -1,5 +1,5 @@
 <?php
-require_once "../../../load.koolreport.php";
+require_once "../../../common.php";
 
 require_once "SalesQuarters.php";
 $salesYear = isset($_POST['salesYear']) ? $_POST['salesYear'] :
